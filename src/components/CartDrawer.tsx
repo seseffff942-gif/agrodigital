@@ -70,7 +70,7 @@ export const CartDrawer: React.FC<CartDrawerProps> = ({
       msg += `\n*Total a pagar: Q${total.toFixed(2)}*\n`;
     }
 
-    const phone = '50254743595';
+    const phone = '50255968832';
     window.open(`https://wa.me/${phone}?text=${encodeURIComponent(msg)}`, '_blank');
   };
 

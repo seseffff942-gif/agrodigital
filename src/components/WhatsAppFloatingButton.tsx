@@ -3,7 +3,7 @@ import { MessageCircle } from 'lucide-react';
 
 export const WhatsAppFloatingButton: React.FC = () => {
   const handleOpenWhatsApp = () => {
-    const phone = '50254743595';
+    const phone = '50255968832';
     const msg = encodeURIComponent('¡Hola Agrovet! 👋 Necesito consultar la disponibilidad y envío de un insumo para mi finca.');
     window.open(`https://wa.me/${phone}?text=${msg}`, '_blank');
   };
